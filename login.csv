@@ -1,0 +1,3 @@
+name,password,email,failed_login_attemps,logged_in,role
+Jérémie,1234m,harrison.jeremie@gmail.com,0, False,admin
+toto,0000m,toto@gmail.com,0,False,user
