@@ -18,8 +18,6 @@ for i in range(len(df_login)) :                   # double boucle pour créer le
 authenticator = Authenticate(data_login,"cookie name", "cookie key",30)         # lignes de code pour créer une instance d'authentification
 
 authenticator.login()                                                           # affiche l'instance dans la page
-st.text("Username : Jérémie  &  Password : 1234m")
-
 
 if st.session_state["authentication_status"]:
     
@@ -59,7 +57,7 @@ elif st.session_state["authentication_status"] is False :
 
 elif st.session_state["authentication_status"] is None:
     st.warning('Les champs username et mot de passe doivent être remplie')
-
+    st.text("Username : Jérémie  &  Password : 1234m")
 
 
 
