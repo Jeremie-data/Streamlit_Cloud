@@ -40,7 +40,7 @@ if st.session_state["authentication_status"]:
         st.image('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aG05cmVodGp3NWdudGozZjN2bHRtd3ZqZ3R1Z21qcnBhOXQ4MzJ1dSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/l0jheIW46oxDgLXPYi/giphy.gif')
 
     elif selection == "Photos":
-        st.title("Bienvenue dans l'album de mon chat 🪂")
+        st.title("Bienvenue dans mon album photos 🪂")
 
         col1, col2, col3 = st.columns(3)
 
